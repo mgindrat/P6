@@ -1,13 +1,18 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import BannerHome from '../components/BannerHome';
+import Footer from '../components/Footer';
+import Cards from '../components/Cards';
+
+
 
 const Home = () => {
     return (
         <div>
-        <Navigation />  
-        <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni quos distinctio iure ratione rerum, aliquid nam ab beatae laboriosam accusamus tempore. Quas eos laudantium doloribus qui non culpa sunt modi adipisci. Illo voluptates expedita quasi consequuntur saepe. Fugit, iste perspiciatis quaerat quidem praesentium architecto vero vitae. Sunt sint a voluptatum.
-        </p>
+        <Navigation /> 
+        <BannerHome />
+        <Cards />
+        <Footer />
         </div>
     );
 };

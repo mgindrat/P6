@@ -1,0 +1,43 @@
+
+//Logo + nav 
+.Header { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Navigation {
+    display: flex;
+    align-items: center;
+    padding-right: 1px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+a {
+    display: flex;
+    padding: 10px;
+    align-items: space-between;
+    text-decoration: none;
+    color: $main-color;
+}
+
+a:active, a:hover {
+    text-decoration: underline;
+}
+
+//Banner 
+.bannerHome img {
+    width: 100%;
+    height: 200px;
+    border-radius: 60px;
+    object-fit: fill;  
+}
+
+.bannerAbout img {
+    width: 100%;
+    height: 200px;
+    border-radius: 60px;
+    object-fit: fill;  
+}
+

@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <footer>
             <img src="./footerDesktop.png" alt="footer Kasa" />
-        </div>
+        </footer>
     );
 };
 

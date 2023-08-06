@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <div className="Header">
+    <header>
       <div className="Logo">
         <img src="./LogoDesktop.png" alt="logo Kasa" />
       </div>
@@ -16,7 +16,7 @@ const Navigation = () => {
           <a href="A propos">A propos</a>
         </NavLink>
       </div>
-    </div>
+    </header>
   );
 };
 

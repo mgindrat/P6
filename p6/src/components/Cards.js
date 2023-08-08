@@ -1,11 +1,12 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+
 
 const Cards = () => {
     return (
         <main class="gallery"> 
 
-        <a href="#/accommodation/c67ab8a7">
+        
+        <a href="/accommodation/c67ab8a7">
         <div className="accommodations-cards">
         <img src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg" alt="Appartement cosy"/>
         <h3>Appartement cosy</h3>

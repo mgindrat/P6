@@ -1,14 +1,12 @@
 * {
   font-family: Montserrat;
   padding: 5px 30px 0px 15px;
-  width: auto;
   overflow-x: hidden;
   box-sizing: border-box;
 }
 
 body, main {
   margin: auto;
-  width: 100%;
   overflow-x: hidden;
 }
 
@@ -39,31 +37,59 @@ a:active, a:hover {
 }
 
 .bannerHome img {
-  width: 100%;
-  height: 200px;
-  border-radius: 60px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  padding-left: 12px;
+  width: auto;
+  height: 223px;
+  top: 163px;
+  left: 100px;
+  border-radius: 25px;
+  opacity: 70%;
 }
 
 .bannerAbout img {
-  width: 100%;
-  height: 200px;
-  border-radius: 60px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  width: auto;
+  height: 223px;
+  top: 163px;
+  left: 100px;
+  border-radius: 25px;
 }
 
-.footer {
+footer {
   align-items: center;
   background-color: #000;
-  color: #fff;
   display: flex;
+  width: 100%;
   height: 209px;
   justify-content: center;
   margin-bottom: -10px;
-  margin-left: -110px;
-  margin-right: -110px;
+}
+
+.error-img, .error-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-title {
+  color: #FF6060;
+  font-weight: normal;
+}
+
+.return-home, .return-home:hover {
+  color: #FF6060;
+  text-align: center;
+}
+
+.return-home:hover {
+  text-decoration: underline;
+}
+
+.return-home a {
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery {
@@ -77,21 +103,30 @@ a:active, a:hover {
   padding-bottom: 40px;
   gap: 20px;
   border-radius: 20px;
+  width: 1225px;
 }
 
 .accommodations-cards {
   display: flex;
   flex-direction: row;
-  height: 340px;
-  width: 340px;
+  flex-wrap: wrap;
+  height: 360px;
+  width: 360px;
   top: 56px;
   left: 50px;
   border-radius: 50px;
 }
 
 .accommodations-cards img {
-  -o-object-fit: fill;
-     object-fit: fill;
-  width: auto;
-  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 340px;
+  height: 250px;
+}
+
+.accommodations-cards h3 {
+  display: flex;
+  color: white;
+  font-weight: normal;
+  transform: translate(3%, -150%);
 }/*# sourceMappingURL=style.css.map */

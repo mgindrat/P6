@@ -28,16 +28,20 @@ a:active, a:hover {
 
 //Banner 
 .bannerHome img {
-    width: 100%;
-    height: 200px;
-    border-radius: 60px;
-    object-fit: fill;  
+    padding-left: 12px;
+    width: auto;
+    height: 223px;
+    top: 163px;
+    left: 100px;
+    border-radius: 25px; 
+    opacity: 70%;
 }
 
 .bannerAbout img {
-    width: 100%;
-    height: 200px;
-    border-radius: 60px;
-    object-fit: fill;  
+    width: auto;
+    height: 223px;
+    top: 163px;
+    left: 100px;
+    border-radius: 25px; 
 }
 

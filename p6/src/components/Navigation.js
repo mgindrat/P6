@@ -16,6 +16,7 @@ const Navigation = () => {
           <a href="A propos">A propos</a>
         </NavLink>
       </div>
+
     </header>
   );
 };

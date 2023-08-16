@@ -1,0 +1,26 @@
+.slideshow {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .slideshow img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slideshow button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .slideshow button:focus {
+    outline: none;
+  }
+  

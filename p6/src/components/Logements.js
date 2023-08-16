@@ -5,6 +5,7 @@ const Logements = () => {
     return (
       <div>
         {logements.map(logement => (
+          <div key={logement.id}>
             <a href={`/accommodation/${logement.id}`}>
                 <div className="accommodations-cards">
             <img src={logement.cover} alt={logement.title} />
@@ -12,6 +13,7 @@ const Logements = () => {
                 </div>
             {/* Vous pouvez afficher d'autres informations ici */}
           </a>
+          </div>
         ))}
       </div>
     );

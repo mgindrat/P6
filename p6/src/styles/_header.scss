@@ -26,7 +26,7 @@ a:active, a:hover {
     text-decoration: underline;
 }
 
-//Banner 
+//Banner Home
 .bannerHome img {
     padding-left: 12px;
     width: auto;
@@ -37,6 +37,13 @@ a:active, a:hover {
     opacity: 70%;
 }
 
+.bannerHome p {
+    transform: translate(-1%, -320%);
+    display: flex;
+    justify-content: center;
+}
+
+//Banner About 
 .bannerAbout img {
     width: auto;
     height: 223px;

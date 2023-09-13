@@ -1,9 +1,10 @@
-.accommodations-cards {
-    width: 320px;
-    height: 320px;
+.accommodations-cards img {
+    width: 340px;
+    height: 340px;
     overflow: hidden;
     border-radius: 25px;
-    position: relative;
+    overflow: hidden;
+    
     
 }
 .accommodations-cards h3 {
@@ -12,7 +13,7 @@
     flex-wrap: wrap;
     color: white;
     font-weight: normal;
-    transform: translate(3%, -150%);
+    transform: translate(3%, -190%);
 }
 
 

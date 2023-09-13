@@ -3,5 +3,32 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     margin: 0 auto;
+    background-color: $main-color;
+    color: $main-color;
+    
   
+}
+
+.collapse-title {
+    color: $secondary-color;
+    border-radius: 5px;
+    margin: 1.5em auto 0;
+    padding: 0.5em 1em;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.collapse-content {
+    color: $main-color;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.about_collapse {
+    width: auto;
+    height: 230px;
+    border-radius: 20px;
 }

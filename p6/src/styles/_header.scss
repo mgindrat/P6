@@ -14,7 +14,7 @@ header {
     text-decoration: none;
 }
 
-a {
+.Navigation a {
     display: flex;
     padding: 10px;
     align-items: space-between;
@@ -43,5 +43,13 @@ a:active, a:hover {
     top: 163px;
     left: 100px;
     border-radius: 25px; 
+}
+
+//Ne fonctionne pas
+.banner-slogan {
+    color: white;
+    font-size: 48px;
+    vertical-align: middle;
+    transform: translate(30%, -150%);
 }
 

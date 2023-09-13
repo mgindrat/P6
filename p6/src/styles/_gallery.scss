@@ -1,16 +1,21 @@
-.gallery {
-    background-color: #F6F6F6;
+.gallery-card {
+    background-color: #f6f6f6;
+    border-radius: 25px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    gap: 20px;
-    border-radius: 20px;
- 
+    gap: 25px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.gallery img {
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 

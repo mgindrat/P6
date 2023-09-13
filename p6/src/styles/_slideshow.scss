@@ -1,20 +1,21 @@
 .slideshow {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    
   }
   
   .slideshow img {
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 25px;
   }
   
   .slideshow button {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-10%);
     padding: 10px;
-    background-color: #333;
+    
     color: #fff;
     border: none;
     cursor: pointer;
@@ -23,4 +24,6 @@
   .slideshow button:focus {
     outline: none;
   }
+
+  
   

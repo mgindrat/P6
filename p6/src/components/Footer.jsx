@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
-            <img src="./footerDesktop.png" alt="footer Kasa"/>
+            <img src="../footerDesktop.png" alt="footer Kasa"/>
         </footer>
     );
 };

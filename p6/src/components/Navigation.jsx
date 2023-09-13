@@ -5,16 +5,12 @@ const Navigation = () => {
   return (
     <header>
       <div className="Logo">
-        <img src="./LogoDesktop.png" alt="logo Kasa" />
+        <img src="../LogoDesktop.png" alt="logo Kasa" />
       </div>
 
       <div className="Navigation">
-        <NavLink to="/">
-          <a href="Accueil">Accueil</a>
-        </NavLink>
-        <NavLink to="/about">
-          <a href="A propos">A propos</a>
-        </NavLink>
+        <NavLink to="/">Accueil</NavLink>
+        <NavLink to="/About">A propos</NavLink>
       </div>
 
     </header>

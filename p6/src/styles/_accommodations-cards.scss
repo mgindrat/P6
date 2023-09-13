@@ -1,20 +1,10 @@
 .accommodations-cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 360px;
-    width: 360px;
-    top: 56px;
-    left: 50px;
-    border-radius: 50px; //ne fonctionne pas
-   
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 25px;
+    position: relative;
     
-}
-
-.accommodations-cards img {
-    object-fit: cover;
-    width: 340px;
-    height: 250px;
 }
 .accommodations-cards h3 {
     display: flex;
@@ -24,4 +14,5 @@
     font-weight: normal;
     transform: translate(3%, -150%);
 }
+
 

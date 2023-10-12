@@ -1,19 +1,42 @@
-.accommodations-cards img {
-    width: 340px;
-    height: 340px;
+.accommodations-cards {
+    background-color: #f6f6f6;
     overflow: hidden;
-    border-radius: 25px;
-    overflow: hidden;
-    
-    
+
 }
+
+.gallery-card .accommodations-cards {
+
+      
+}
+
 .accommodations-cards h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     color: white;
     font-weight: normal;
-    transform: translate(3%, -190%);
+    transform: translate(6%, -150%);
+    overflow: hidden;
 }
 
+/* Accommodations content info*/
+
+.accomodation_content_infos {
+    color: $main-color;
+}
+
+.accomodation_content_infos button {
+
+    color: white;
+    border-radius: 20px;
+    background-color: $main-color;
+    display: flex;
+    
+    align-content: space-between;
+    align-items: space-between;
+    justify-content: space-between;
+
+    width: 15%;
+
+}
 

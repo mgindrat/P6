@@ -1,22 +1,29 @@
 .gallery-card {
-    background-color: #f6f6f6;
-    grid-column-gap: 50px;
-    grid-row-gap: 30px;
+    background: #f6f6f6;
+    border-radius: 25px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 60px 1px 10px 20px;
+    padding: 50px 30px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.gallery-card img {
+    border-radius: 40px;
+}
+
+
+//media queries
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.gallery-card {
+    width: 100%;
     background: #f7f7f7;
     border-radius: 25px;
-    
     column-gap: 50px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin-bottom: 40px;
-    padding: 50px;
-    row-gap: 30px;
 }
-
-.gallery img {
-    background-color: #f6f6f6;
-    border-radius: 25px;
-    
 }
-
 

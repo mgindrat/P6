@@ -1,17 +1,14 @@
-.slideshow {
-    height: 100%;
-    width: 100%;
-    
-  }
-  
+
   .slideshow img {
-    width: 50%;
+
     height: 40px;
     object-fit: cover;
     border-radius: 25px;
   }
-  
+  /*
   .slideshow  {
+    width: 100%;
+    height: 100%;
     position: absolute;
     transform: translateY(-10%);
     padding: 10px;
@@ -20,10 +17,36 @@
     border: none;
     cursor: pointer;
   }
+  */
   
   .slideshow button:focus {
     outline: none;
+    
   }
 
+  .slideshow button {
+    align-items: space-between;
+  }
   
-  
+  section.carousel {
+    width: 98%;
+    height: 500px;
+    border-radius: 20px;
+  }
+
+  //Fleche du slideshow
+
+  img.carousel_arrow_right {
+    transform: translate(760%,150%);
+  }
+
+  img.carousel_arrow_left {
+    transform: translate(-90%,150%);
+  }
+
+  //Numerotation page du carrousel
+
+  p.slideCount {
+    transform: translate(46%,1200%);
+    color: white;
+  }
